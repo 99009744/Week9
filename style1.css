@@ -1,7 +1,7 @@
 html{
     font-family: 'Archivo', sans-serif;
 }
-.center{
+.header{
     margin: 0 auto;
     width: 1000px;
     position: relative;
@@ -19,7 +19,7 @@ html{
     position: sticky;
 }
 
-.uitklap-menu{
+.uitklapmenu{
     display: none;
     list-style-type: none;
     padding: 0;
@@ -28,26 +28,26 @@ html{
     left: 0;
     width: 220px;
 }
-.uitklap-menu>li{
+.uitklapmenu>li{
     border: 1px solid #222931;
     width: 120px;
     background-color:#222931;
     color: yellow;
     display: inline-block;
 }
-.uitklap-menu>li:hover{
+.uitklapmenu>li:hover{
     background-color:yellow;
     color: black;
 }
-.uitklap-item:hover > .uitklap-menu{
+.uitklapitem:hover > .uitklapmenu{
     background-color: #222931;
     color: yellow;
     display: block;
 }
-.uitklap-item{
+.uitklapitem{
     position: relative;
 }
-.uitklap-item:hover{
+.uitklapitem:hover{
     background-color: yellow;
     color: black;
 }
@@ -64,7 +64,7 @@ NAV>UL>LI{
     padding: 10px;
 
 }
-.uitklap-menu>a{
+.uitklapmenu>a{
     text-decoration: none;
     color: yellow
 }
