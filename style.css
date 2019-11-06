@@ -1,0 +1,22 @@
+html{
+    font-family: 'Archivo', sans-serif;
+}
+.header{
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+}
+.logo{
+    padding: 25px 0px;
+}
+.infobalk{
+    color: white;
+    background-color: darkgrey;
+    width: 950px;
+}
+div>ol{
+    font-size: 14px;
+}
+li{
+    font-size: 16px;
+}
